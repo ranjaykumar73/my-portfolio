@@ -8,7 +8,7 @@ const Projects = () => {
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold mb-12 text-center">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-         {projectData.map((item, index)=> <ProjectCard key={index} title={item.title} description={item.description} projectLink={item.projectLink} />)}
+         {projectData.map((item, index)=> <ProjectCard key={index} title={item.title} description={item.description} projectLink={item.projectLink} projectURL={item.projectURL} />)}
         </div>
       </div>
     </section>
