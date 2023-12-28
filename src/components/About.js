@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className="bg-gray-100 py-16">
+    <section id="about" className="bg-pink-100 py-16">
       <div>
         <div className=" flex justify-center -mt-16 gap-5">
           <p>+91-9852463851</p>
@@ -12,7 +12,7 @@ const About = () => {
         </div>
       </div>
       <div className="container mx-auto w-full sm:w-4/5 flex flex-col sm:flex-row gap-4 justify-center items-center mt-10">
-        <div className=" mx-auto">
+        <div className=" mx-auto mt-8">
           <img
             src="https://media.licdn.com/dms/image/D5603AQFizd8agGEAOQ/profile-displayphoto-shrink_800_800/0/1681713000195?e=2147483647&v=beta&t=oQWxUvy522tYeylq8Al2GrkzYnobeCf4m09Zsx0bjvs"
             alt="Profile"
