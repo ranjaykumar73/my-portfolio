@@ -4,7 +4,7 @@ export const ProjectCard = ({title, description, projectLink,projectURL}) => {
   return (
     <div className="bg-orange-200 p-8 rounded-md shadow-md">
     <h3 className="text-2xl font-bold mb-4">{title}</h3>
-    <p className="text-gray-600 mb-6">
+    <p className="text-gray-600 mb-6 ">
       {description} 
     </p>
 
