@@ -3,7 +3,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className="bg-blue-900 text-white p-4">
+    <header className="bg-blue-900 text-white p-4 w-full">
       <div className="container mx-auto flex justify-between items-center">
         <div>
           <h1 className="text-3xl font-extrabold tracking-tight">Ranjay Kumar</h1>

@@ -73,7 +73,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="bg-gray-200 py-16">
+    <section id="contact" className="bg-gray-200 py-16 p-4 sm:p-10">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold mb-12 text-center">Contact</h2>
 
@@ -139,7 +139,7 @@ const Contact = () => {
           
           <button
             type="submit"
-            className="bg-blue-500 text-white py-3 px-6 rounded-full hover:bg-blue-600"
+            className="bg-gradient-to-tr from-blue-400 to-pink-500 hover:from-blue-800 hover:to-pink-800 transition-all duration-300 text-white py-3 px-6 rounded-full "
           >
             Send Message
           </button>

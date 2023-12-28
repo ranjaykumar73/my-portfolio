@@ -3,7 +3,7 @@ import React from 'react';
 
 const Resume = () => {
   return (
-    <section id="resume" className="bg-gray-100 py-16">
+    <section id="resume" className="bg-gray-100 py-16 p-4 sm:p-10">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold mb-12 text-center">Resume</h2>
 
@@ -25,7 +25,7 @@ const Resume = () => {
 
        
           <div className="text-center">
-          <button className='h-10 w-40 bg-blue-500 rounded'>
+          <button className='h-10 w-40 bg-blue-500 hover:bg-blue-800 transition-all duration-300 rounded'>
             <a href="/Resume/Ranjay_resume.pdf" download className=" hover:underline text-white">
               Download Resume
             </a>
